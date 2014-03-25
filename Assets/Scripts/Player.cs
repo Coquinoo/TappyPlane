@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
 		}
 		
 		// Die by being off screen
-		Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
+		/*Vector2 screenPosition = Camera.main.WorldToScreenPoint(transform.position);
 		if (screenPosition.y > Screen.height || screenPosition.y < 0)
 		{
 			Die();
@@ -33,5 +33,5 @@ public class Player : MonoBehaviour
 	void Die()
 	{
 		Application.LoadLevel(Application.loadedLevel);
-	}
+	} */
 }
